@@ -1,0 +1,1366 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+body{
+    background-color: aquamarine;
+}
+
+.bttn button{
+    float: right;
+    margin-right: 20px;
+    padding: 13px 13px;
+    width: 150px;
+    margin-top: -20px;
+    position: relative;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.bttn :hover{
+    cursor: pointer;
+    color: green;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.nav-links ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: green;
+    margin-top: 50px;
+    position: relative;
+}
+.nav-links ul a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(48, 51, 48);
+}
+.log img{
+    width: 200px;
+    height: 200px;
+    top: -80px;
+    position: relative;
+}
+.paragraph p{
+    margin-left: 500px;
+    font-size: larger;
+    white-space-collapse: 0px;
+
+}
+/* the first four circles */
+.circle-container2{
+    transform: translatex(25px);
+}
+/* the second four circles */
+.circle-container3{
+    transform: translatex(55px);
+}
+/* the third four circles */
+
+.circle-container4{
+    transform: translatex(85px);
+}
+
+
+.shape .circle1{
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+.shape .circle3{
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 60px;
+    position: absolute;
+    
+}
+.shape .circle4{
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 80px;
+    position: absolute;
+    
+}
+.shape .circle{
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 20px;
+    position: absolute;
+    
+} 
+.shape{
+    width: 450px;
+    height: 600px;
+    background: green;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 40px 10px 40px 10px;
+}
+.person {
+    transform: translateX(30px);
+}
+.contain-circle1{
+    transform: translateX(42px);
+}
+
+.contain-circle2{
+    transform: translateY(480px);
+    margin-left: -290px; 
+}
+.mn{
+    margin-left: 580px;
+    margin-top: -625px;
+}
+.mn H1{
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+}
+.nn h1{
+    margin-left: 95px;
+}
+.mn p{
+    margin-top: 30px;
+    margin-left: 75px;
+}
+.lix hr{
+    width: 56%;
+    height: 2;
+    background-color:  gainsboro;
+    margin-left: 50px;
+    margin-top: 80px;
+    position: absolute;
+    
+}
+.api button{
+    margin-left: 570px;
+    padding: 10px 10px;
+    width: 200px;
+    margin-top: 130px;
+    position: absolute;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+.api :hover{
+    cursor: pointer;
+    color: green;
+    background-color: #fff;
+}
+.ape button{
+    margin-left: 900px;
+    padding: 10px 10px;
+    width: 200px;
+    margin-top: 130px;
+    position: absolute;
+    background-color: gainsboro;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.ape :hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: green;
+
+}
+.card2{
+    width: 100%;
+    height: 130px;
+    background-color: gainsboro;
+    margin-top: 600px;
+}
+
+.ecess img{
+    position: absolute;
+    width: 300px;
+    height: 390px;
+    margin-left: 750px;
+    margin-top: -400px;
+
+}
+.card3{
+    width: 150px;
+    height: 270px;
+    background-color: gainsboro;
+    margin-top: -403px;
+    margin-left: 580px;
+    border: 2px solid rgb(139, 137, 137);
+    border-radius: 40px 20px 65px 10px ;
+}
+.card3 img{
+    width: 180px;
+    height: 260px;
+    margin-right: 40px;
+}
+.card4{
+    width: 200px;
+    height: 400px;
+    background-color: gainsboro;
+    margin-top: -404px;
+    margin-left: 790px;
+    border: 2px solid rgb(139, 137, 137);
+    border-radius: 20px 40px 10px 65px ;
+    position: absolute;
+}
+.card4 img{
+    width: 180px;
+    height: 200px;
+}
+.card5{
+    width: 150px;
+    height: 270px;
+    background-color: gainsboro;
+    margin-top: -274px;
+    margin-left: 1050px;
+    border: 2px solid rgb(139, 137, 137);
+    border-radius: 40px 20px 65px 10px ;
+}
+.card5 img{
+    width: 120px;
+    height: 260px;
+    gap: 20px 20px 20px 20px;
+}
+.ali{
+    margin-left: 580px;
+    margin-top: 10px;
+}
+.jose{
+    margin-left: 750px;
+    margin-top: -65px;
+    position: absolute;
+}
+.ron{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: -65px;  
+}
+.mose{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -65px;
+}
+.contain p{
+    margin-top: 15px;
+    position: relative;
+}
+/* start of footer */
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: green;
+    margin-top: 50px;
+    position: absolute;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 8px;
+    position: absolute;
+}
+.roni h3{
+    margin-top: 120px;
+    margin-left: 20px;
+    color: white;
+    position: absolute;
+}
+.soci  img{
+    width: 20px;
+    height: 20px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 20px;
+    color: #fff;
+}
+.soi img{
+    width: 20px;
+    height: 20px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 50px;
+}
+.soc img{
+    width: 20px;
+    height: 20px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 80px;
+}
+.sho h3{
+    margin-left: 450px;
+    margin-top: 50px;
+    color: white;
+}
+.pie p{
+    margin-left: 452px;
+    margin-top: 10px;
+}
+.sow h3{
+    margin-left: 650px;
+    margin-top: -140px;
+    color: white;
+}
+.chat p{
+    margin-left: 652px;
+    margin-top: 10px;
+}
+.gren{
+    margin-left: 920px;
+    margin-top: -140px;
+    color: white;
+}
+.button input{
+    margin-left: 900px;
+    width: 27%;
+    height: 20px;
+    border-radius: 4px;
+    background-color: green;
+    border: #7fffd4 solid 2px;
+}
+.button ::placeholder{
+    color: #fff;
+}
+.but button{
+    margin-left: 1120px;
+    height: 24px;
+    width: 10%;
+    margin-top: -24px;
+    position: absolute;
+    background-color: aquamarine;
+    border:  #7fffd4 solid 5px;
+    font-weight: bold;
+}
+.but :hover{
+    cursor: pointer;
+    color: rgb(210, 148, 67);
+}
+.jui{
+    width: 80%;
+    margin-top: 130px;
+}
+.rie{
+    margin-left: 1010px;
+    margin-top: -12px;
+}
+.rio{
+    margin-left: 1080px;
+    margin-top: -19px;
+}
+.riu{
+    margin-left: 1160px;
+    margin-top: -19px;
+}
+
+
+/* end of footer */
+
+/* start of shop page */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.shopbody{
+    background-color: white;
+    
+}
+.btttn button{
+    float: right;
+    margin-right: 20px;
+    padding: 13px 13px;
+    width: 150px;
+    margin-top: -20px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btttn :hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    position: relative;
+}
+    
+.bav-links ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: green;
+    margin-top: 50px;
+    position: relative;
+}
+.bav-links ul a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(98, 194, 98);
+}
+.logo1 img{
+    width: 200px;
+    height: 200px;
+    margin-top: -80px;
+    position: absolute;
+}
+.card8{
+    width: 430px;
+    height: 400px;
+    background: aquamarine;
+    margin-left: 50px;
+    margin-top: 80px;
+    border-radius: 15px 60px 15px 60px;
+    position: relative;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.per img{
+    width: 269px;
+    height: 380;
+    margin-top: -3px;
+    position: relative;
+    margin-left: 80px;
+}
+
+.yami h3{
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+    margin-left: 700px;
+    margin-top: -350px;
+}
+.yami p{
+    margin-left: 650px;
+    margin-top: 20px;
+}
+.miu p{
+    margin-left: 760px;
+    margin-top: 1px;
+}
+.card10{
+    width: 80px;
+    height: 70px;
+    background-color: gainsboro;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 700px;
+    border-radius: 10px;
+}
+#clockdiv{
+	font-family: sans-serif;
+	color: green;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+#clockdiv > div{
+	padding: 6px;
+	border-radius: 4px;
+	background: white;
+	display: inline-block;
+    position: relative;
+    border : solid 2px;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: white;
+	display: inline-block;
+    position: relative;
+}
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+    position: relative;
+}
+.card9{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 80px;
+    opacity: 60%;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.contain-circle3 .circle{
+    width: 6px;
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+.contain-circle3 .circle1{
+    width: 6px;
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+.contain-circle3 .circle3{
+    width: 6px;
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 60px;
+    position: absolute;
+    
+}
+.contain-circle3 .circle4{
+    width: 6px;
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 80px;
+    position: absolute;
+    
+}
+.contain-circle3 .circle{
+    width: 6px;
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 20px;
+    position: absolute;
+    
+} 
+.contain-circle3{
+    transform: translateY(270px);
+    margin-left: -240px;
+
+}
+.hune button{
+    margin-left: 800px;
+    margin-top: 200px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    background-color: green;
+    color: #fff;
+    border-radius: 7px;
+}
+.hune button:hover{
+    background-color: #fff;
+    color: green;
+    cursor: pointer;
+}
+.box1{
+    width: 250px;
+    height: 60vh;
+    background-color: rgb(222, 216, 216);
+    margin-left: 90px;
+    margin-top: 60px;
+    border-radius: 0px 60px 30px 40px;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.content-text{
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 20px;
+}
+.content-text p1{
+   margin-left: 5px;
+   margin-top: 20px;
+}
+.content-text img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    position: absolute;
+    margin-top: -15px;
+}
+.card-images6 img{
+    width: 200px;
+    margin-top: -350px;
+    position: absolute;
+    margin-left: 910px;
+}
+.card-images5 img{
+    width: 200px;
+    margin-top: -350px;
+    position: absolute;
+    margin-left: 520px;
+}
+.card-images4 img{
+    width: 200px;
+    margin-top: -350px;
+    position: absolute;
+    margin-left: 120px;
+}
+.card-images3 img{
+    width: 200px;
+    margin-top: -350px;
+    position: absolute;
+    margin-left: 520px;
+}
+.card-images2 img{
+    width: 200px;
+    margin-top: -350px;
+    position: absolute;
+    margin-left: 120px;
+}
+.card-images1 img{
+    width: 200px;
+    margin-top: -350px;
+    position: absolute;
+    margin-left: 910px;
+}
+.content-text1{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 18px;
+}
+.content-text1 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text2{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 14px;
+}
+.content-text2 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text3{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.content-text3 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text4{
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 25px;
+}
+.content-text4 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text5{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 20px;
+}
+.content-text5 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.box2{
+    width: 250px;
+    height: 60vh;
+    background-color: rgb(222, 216, 216);
+    margin-left: 490px;
+    margin-top: -340px;
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.box3{
+    width: 250px;
+    height: 60vh;
+    background-color: rgb(222, 216, 216);
+    margin-left: 880px;
+    margin-top: -340px;
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.box4{
+    width: 250px;
+    height: 60vh;
+    background-color: rgb(222, 216, 216);
+    margin-left: 880px;
+    margin-top: 60px;
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.box5{
+    width: 250px;
+    height: 60vh;
+    background-color: rgb(222, 216, 216);
+    margin-left: 490px;
+    margin-top: -340px;
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.box6{
+    width: 250px;
+    height: 60vh;
+    background-color: rgb(222, 216, 216);
+    margin-left: 90px;
+    margin-top: -340px;
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.footer2{
+    background-color: green;
+    margin-top: 100px;
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+}
+
+ /* <--! start of excluisive --! > */
+
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.excluisivebody{
+    background-color: white;
+    
+}
+.bttton button{
+    float: right;
+    margin-right: 20px;
+    padding: 13px 13px;
+    width: 150px;
+    margin-top: -20px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.bttton :hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    position: relative;
+}
+    
+
+.rav-links ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: green;
+    margin-top: 50px;
+    position: relative;
+}
+.rav-links ul a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(98, 194, 98);
+}
+.logo2 img{
+    width: 200px;
+    height: 200px;
+    margin-top: -80px;
+    position: absolute;
+} 
+.shape1{
+    width: 330px;
+    height: 430px;
+    background: rgb(176, 176, 177);
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 1px 60px 1px 60px;
+    position: relative;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.cip img{
+    height: 400px;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+.content-text6{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.content-text6 h1{
+    margin-left: -30px;
+    font-weight: 600;
+}
+.content-text6 p{
+    font-weight: 600;
+}
+.content-text6 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 130px;
+    margin-top: -15px;
+    position: absolute;
+}
+.shape5{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape5 img{
+    width: 130px;
+    height: 199px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.shape6{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape6 img{
+    width: 130px;
+    height: 220px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.shape7{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape7 img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.shape8{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape8 img{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.shape9{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape9 img{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.shape10{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape11{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 60px;
+    margin-top: 100px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape11 img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.shape12{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px   solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape12 img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.shape13{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 40px;
+    margin-top: 100px;
+    border-radius: 0px 40px 0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape14{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 40px;
+    margin-top: 100px;
+    border-radius: 0px 40px  0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape15{
+    width: 170px;
+    height: 200px;
+    background: rgb(176, 176, 177); 
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 0px 40px  0px 40px;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+}
+.shape14 img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.container-shape4{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 0px 40px 0px 40px;
+    position: absolute; 
+}
+.container-shape4:hover{
+    transition: all 0.45s ease;
+}   
+.content-text7{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 270px;
+}
+.content-text7 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text8{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 270px;
+}
+.content-text8 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text9{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 270px;
+}
+.content-text9 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text10{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 270px;
+}
+.content-text10 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text11{
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 270px;
+}
+.content-text11 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text12{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 560px;
+}
+.content-text12 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text13{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 560px;
+}
+.content-text13 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text14{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 560px;
+}
+.content-text14 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text15{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 560px;
+}
+.content-text15 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+.content-text16{
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 560px;
+}
+.content-text16 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.footer3{
+    background-color: green;
+    margin-top: 620px;
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+    
+} 
+/* start of contact page */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Contactbody{
+    background-color: white;
+    
+}
+.btttun button{
+    float: right;
+    margin-right: 20px;
+    padding: 13px 13px;
+    width: 150px;
+    margin-top: -20px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btttun :hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    position: relative;
+}
+    
+
+.tav-links ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: green;
+    margin-top: 50px;
+    position: relative;
+}
+.tav-links ul a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(98, 194, 98);
+}
+.logo3 img{
+    width: 200px;
+    height: 200px;
+    margin-top: -80px;
+    position: absolute;
+} 
+.Contant{
+    width: 430px;
+    height: 400px;
+    background: aquamarine;
+    margin-left: 50px;
+    margin-top: 80px;
+    border-radius: 25px 150px 30px 100px;
+    position: relative;
+    border: 1px  solid black;
+    box-shadow: 4px 4px 4px 0px rgb(176, 176, 177);
+    transition: all 0.5s ease;
+}
+.contantpng img{
+    height: 370px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.contact-text{
+    margin-left: 500px;
+    position: absolute;
+    bottom: 160px;
+}
+.contact-text h1{
+    margin-bottom: 20px;
+    margin-left: 150px; 
+}
+.contactus-text{
+    margin-left: 600px;
+    margin-top: 80px;
+}
+.contactus-text h1{
+    margin-left: 195px;
+    color: green;
+    margin-bottom: 10px;
+}
+.contactus-text span{
+    margin-left: 170px;
+}
+.contactus-text p{
+    margin-top: 50px;
+}
+.contact-input input{
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 30%;
+    height: 6vh;
+    border: #7fffd4 solid 2px;
+    border-radius: 5px;   
+}
+.contact-input h4{
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 10px;
+}
+.contact-inputs h4{
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 10px;
+}
+.contact-inputss h4{
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 10px;
+}
+.contact-inputs input{
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 30%;
+    height: 6vh;  
+    border: #7fffd4 solid 2px; 
+    border-radius: 5px; 
+}
+.contact-inputss input{
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 30%;
+    height: 6vh;
+    border: #7fffd4 solid 2px;  
+    border-radius: 5px;  
+}
+.button1{
+    width: 7%;
+    height: 6.7vh;
+    margin-right: 24px;
+    position: absolute;
+    margin-top: 30px;
+    border: #7fffd4 solid 2px; 
+    background-color:#fff;
+    border-radius: 5px;
+}
+.button1:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.button2{
+    width: 7%;
+    height: 6.5vh;
+    margin-right: 24px;
+    position: absolute;
+    margin-top: 30px;
+    border: #7fffd4 solid 2px;
+    background-color: #fff;
+    border-radius: 5px;     
+}
+.button1:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.button3{
+    width: 7%;
+    height: 6.5vh;
+    margin-right: 24px;
+    position: absolute;
+    margin-top: 30px;
+    border: #7fffd4 solid 2px; 
+    background-color: #fff;
+    border-radius: 5px;
+}
+.button2:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.Snail-mail{
+    margin-top: -200px;
+    position: absolute;
+    margin-left: 50px;
+
+}
+.Snail-mail hr{
+    margin-top: 20px;
+    width: 500%;
+    height: 2px;
+    background-color: black;
+}
+.phone-support{
+    margin-left: 50px;
+    position: absolute;
+    margin-top: -70px;
+}
+.phone-support hr{
+    margin-top: 20px;
+    width: 200%;
+    height: 2px;
+    background-color: black;
+}
+.footer4{
+    background-color: green;
+    margin-top: 100px;
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
